@@ -1,0 +1,96 @@
+/* Page */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fc;
+}
+
+
+/* Contenu principal */
+
+.page {
+    width: 90%;
+    margin: 30px auto;
+}
+
+
+/* Image + texte */
+
+.contenu {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Image */
+
+.image {
+    width: 50%;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/* Texte */
+
+.texte {
+    width: 50%;
+    padding: 30px;
+}
+
+
+/* Grand titre */
+
+h1 {
+    font-size: 38px;
+    color: #14284a;
+}
+
+h1 span {
+    color: #1666e5;
+}
+
+
+/* Paragraphes */
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+
+/* Les trois phrases */
+
+h2 {
+    color: #1666e5;
+    font-size: 22px;
+}
+
+
+/* Dernier titre */
+
+h3 {
+    font-size: 24px;
+    color: #14284a;
+}
+
+
+/* Partenaires */
+
+.partenaires {
+    background-color: #14294b;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.partenaires img {
+    width: 40%;
+}
