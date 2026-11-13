@@ -1,0 +1,95 @@
+
+/* General settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+
+/* Shirts section */
+.shirts {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* Main title */
+.shirts h1 {
+    font-size: 65px;
+    color: #000000;
+    margin-bottom: 25px;
+    text-transform: lowercase;
+}
+
+/* Shirts container */
+.shirt-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Individual shirts */
+.shirt {
+    width: 22%;
+}
+
+.shirt img {
+    width: 100%;
+    height: 390px;
+    object-fit: contain;
+}
+
+/* Sponsors section */
+.partenaires {
+    margin: 40px auto;
+    width: 90%;
+    height: 155px;
+    background-color: #14284a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.partenaires img {
+    width: 45%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Sponsor text */
+.sponsor h2 {
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+/* Sponsor image */
+.sponsor img {
+    width: 600px;
+    height: auto;
+}
+
+/* Responsive design */
+@media (max-width: 700px) {
+
+    .shirt-container {
+        flex-direction: column;
+    }
+
+    .shirt {
+        width: 65%;
+    }
+
+    .shirts h1 {
+        font-size: 40px;
+    }
+
+
+}
